@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'Satoshi';
+	src: local('Satoshi'),
+		url(./assets/fonts/Satoshi-Regular.otf) format('opentype');
+	/* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+* {
+	font-family: 'Satoshi';
+}
+.novelGridBackground {
+	background-image: url('./assets/AuthImg/BG.svg');
+	height: 100vh;
+}
+
+.otp-Input {
+	padding: 60px 30px;
+	line-height: 87px;
+}
